@@ -1,0 +1,19 @@
+body {
+    height:100vh;
+    font-family: serif;
+}
+
+.img {
+    transition: 2s;
+    opacity: 0;
+    transform: translateY(200px);
+    filter: brightness(0);
+}
+
+.element {
+    margin-top: 300px;
+    transform: translateY(-100px);
+    transition: 2s;
+    opacity: 0;
+    filter: brightness(0);
+}
